@@ -20,7 +20,7 @@ def retrieval
   shipping_manifest["oil paintings"]
 end
 
-require 'pry'
+
 def adding
   shipping_manifest = {
                   "whale bone corsets" => 5, 
@@ -34,7 +34,6 @@ def adding
   # add 4 gun powder to the shipping_manifest hash below
 
   shipping_manifest["gun powder"] = 4 
-binding.pry 
   # return the shipping_manifest hash below
   shipping_manifest
 end
